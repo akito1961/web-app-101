@@ -24,8 +24,11 @@ local_css(".//style//style.css")
 ## ----- HEADER SECTION -----
 st.title("Number Guessing Game :game_die:")
 
-st.write('This is **Number Guessing Game** with Streamlit. You just have to correctly guess the number from 0 to 9. Good luck and have fun.')
-st.write("*Update 0.1* I cannot randomly select the number yet. I'll keep it update -Aug 13, 2023, 01:23 GMT+7")
+st.write("""
+         This is **Number Guessing Game** with Streamlit. You just have to correctly guess the number from 0 to 9. Good luck and have fun.
+         
+         - *Update 0.1* I cannot randomly select the number yet. I'll keep it update -Aug 13, 2023, 01:23 GMT+7
+         """)
 
 ## --- Game Area ---
 with st.container():
