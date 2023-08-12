@@ -19,7 +19,7 @@ def local_css(file_name):
 #####
 
 ## load local css file
-local_css("style\style.css")
+local_css(".\style\style.css")
 
 ## ----- HEADER SECTION -----
 st.title("Number Guessing Game :game_die:")
